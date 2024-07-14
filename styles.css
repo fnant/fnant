@@ -1,0 +1,39 @@
+body {
+}
+
+header {
+    padding: 20px;
+}
+
+.warpbox {
+	width: 80%;
+	margin-left:20%;
+	margin-top:10%;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.table-container {
+    width: 80%;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+	text-align: left;
+}
