@@ -15,69 +15,63 @@ mockup
 		<div class="container">
         <div class="content-container">
             <div class="image-container">
-                <img src="image.jfif" alt="Image" width="128" height="128" />
+                <!-- <img src="image.jfif" alt="Image" width="128" height="128" /> -->
+				<a id="avatar" onclick="changeImage()"><img id="image_on" class="image_on" src="image.jfif" width="128" height="128" alt="ava" /><img class="image_off" src="image.webp" width="128" height="128" alt="ava" /></a>
             </div>
             <div class="text-container">
                 <p>.</p>
                 <p>.</p>
+				<div class="misc">
 				<p id="load_time"> loaded in %loading%</p>
+				<select name="ver" id="ver">
+				<option selected disabled>switch version</option>
+				<option disabled value="aimockup">AI mockup new (active)</option>
+				<option value="placeholder">placeholder</option>
+				</select>
+				</div>
             </div>
         </div>
 		</header>
 		<br>
-		<div class="table-container">
-        <table>
-            <thead>
-                <tr>
-                    <th>Title 1</th>
-                    <th>Title 2</th>
-                    <th>Title 3</th>
-                    <th>Title 4</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Row 1, Column 1</td>
-                    <td>Row 1, Column 2</td>
-                    <td>Row 1, Column 3</td>
-                    <td>Row 1, Column 4</td>
-                </tr>
-                <tr>
-                    <td>Row 2, Column 1</td>
-                    <td>Row 2, Column 2</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Row 3, Column 1</td>
-                    <td>Row 3, Column 2</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Row 4, Column 1</td>
-                    <td>Row 4, Column 2</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Row 5, Column 2</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Row 6, Column 2</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+		<div class="list-container">
+        <div class="list-item" id="toHR">
+		<h2>HR</h2>
+		<p>6 years St. Petersburg university of aerospace enginreering</p>
+		<p>4 years of extracurricular coding clubs during middle&high school</p>
+		<p>?</p>
+		<p>?</p>
+		<p>~Can drink ALL the coffee</p>
+		<p>20 years of playing table tennis on the streets (sometimes I've won and sometimes I've lost)</p>
+		</div>
+		<div class="list-item" id="toHR2">
+		<h2>Friends</h2>
+		<p>in progress: learing html\css basics: <a href="https://www.freecodecamp.org/fcc94026fdd-5455-44dc-8d6f-0477a374838f">[link]</a>
+		<p>character sprites I've made using image to image on a sketch: <a href="https://imgur.com/a/autLJtQ">[link]</a> <a href="https://imgur.com/a/1nk5Zdo">[link]</a> <a href="https://imgur.com/a/tUxL2nQ">[link]</a> <a href="https://fnant.github.io/hivemindoverlord/sac/sacengineplaceholder">[link]</a>
+		</p>
+		<p>pet projects: <a href="https://fnant.github.io/hivemindoverlord/">[link]</a>
+		</p>
+		<p>math math MAth</p>
+		<p>doing a lot of reading ...and anime watching</p>
+		<p>...technique 1. drinking beer on video (not for yt) 
+		<a href="">[school number 1 with in-depth study of english language technique]</a></p>
+		<p>...technique 2. ~smoking
+		<a href="">[unnamed cringe frog summoning technique]</a></p>
+		<p>and much more...</p>
+		</div>
+		<div class="list-item" id="toHR3">
+		<h2>Fans</h2>
+		</div>
+		<div class="list-item" id="toHR4">
+		<h2>Enemies</h2>
+		</div>
+		
+	</div>
     </div>
     </div>
 	</section>
+	<footer>
+	<p> Made with hands and amphetamine 🥀</p>
+	</footer>
 	</div>
 </body>
 </html>

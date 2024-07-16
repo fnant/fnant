@@ -11,3 +11,8 @@ window.addEventListener('load', () => {
   // Set the text of the existing p tag to the load time
   loadTimeElement.textContent = `Load time: ${loadTime.toFixed(3)} s`;
 });
+
+function changeImage() {
+	console.log("change image");
+    document.getElementById("image_on").src = "image.webp";
+}
