@@ -3,12 +3,13 @@ body {
 
 header {
     padding: 20px;
+	padding-top: 20%;
 }
 
 .warpbox {
-	width: 80%;
-	margin-left:20%;
-	margin-top:10%;
+	width: 60%;
+	margin:auto auto;
+
 }
 
 .content-container {
@@ -20,6 +21,22 @@ header {
     margin-right: 20px;
 }
 
+@media screen and (max-width: 1100px) {
+  .list-container {
+    flex-direction: column;
+  }
+}
+
+.list-container{
+    display: flex;
+}
+
+.list-item{
+	min-width: 220px;
+	padding:10px;
+    flex-grow: 1;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -27,7 +44,7 @@ main {
 }
 
 .table-container {
-    width: 80%;
+    width: 100%;
 }
 
 table {
@@ -36,4 +53,23 @@ table {
 
 th {
 	text-align: left;
+}
+
+footer {
+	text-align: center;
+}
+
+.text-container {
+		width: 100%;
+}
+
+.misc {
+	text-align: right;
+}
+
+.image_off, #avatar:hover .image_on{
+   display:none
+}
+.image_on, #avatar:hover .image_off{
+   display:block
 }
